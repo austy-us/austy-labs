@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+
+# VSCode
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# OBS config
+*.json.backup
+scene_collection_backup/
+
+# XPression Designer
+*.xpf.backup
+*.xpj.bak
+*.xpj.lock
+*.xpgfx
+~$*.xpj
+# If you're using data sources like Excel:
+*.xls~
+~$*.xlsx
+
+# Tessera Panels / Layouts
+*.tpanel.bak
+*.tpanel.autosave
+*.tessera.bak
+tessera_autosaves/
+
+# Ross Acuity / Ultrix macros (if saving to repo for tracking)
+*.bak
+*.autosave
+*.tmp
+
+# mc360 Audio Board
+*.sessionbackup
+*.mix
+*.autosave
+*.temp
+
+# Dante config backups (if ever exported)
+*.dntcfg
+*.dntbak
+
+# General Logs and Dumps
+*.log
+*.dmp
+crash_logs/
+logs/
